@@ -12,3 +12,8 @@ console.log(otherNumber.toPrecision(4))  //limits total number of digits
 const hundreds = 1000000 
 console.log(hundreds.toLocaleString('en-IN')) //formats number based on locale
 
+let a = "25";
+
+console.log(Number(a));   
+console.log(parseInt(a)); 
+console.log(parseFloat("12.45")); 
